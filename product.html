@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="product.css">
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="nav_section1">
+            <div class="nav1">
+                <a href="#">Clothes.</a>
+                <div class="nav_link" id="navContent">
+                    <small id="remove_cross">X</small>
+                    <a href="#" class="active">Home</a>
+                    <a href="#">Collection</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="icon">
+                    <i class='bx bxs-heart'></i>
+                    <i class='bx bxs-cart-alt'></i>
+                    <i class='bx bx-menu burger' id="menuBtn"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="nav_section2">
+
+            <div class="nav2">
+
+                <p>Free Delivery</p>
+                <p>30 Days Return</p>
+                <p>Cash On Delivery</p>
+                <p>Secure Payment</p>
+
+            </div>
+        </div>
+
+    </nav>
+
+
+
+    <section>
+
+        <a href="index.html" class="back"><i class='bx bx-arrow-back'></i> Back</a>
+
+        <div class="product">
+
+
+
+            <div class="image_content">
+
+                <img src="images/heavy_jaket.png" alt="image">
+
+                <div class="smallimg">
+                    <img src="images/heavy_jaket.png" alt="small image">
+                    <img src="images/heavy_jaket.png" alt="small image">
+                    <img src="images/heavy_jaket.png" alt="small image">
+                </div>
+
+
+
+            </div>
+
+            <div class="Product_text">
+
+                <h2>Mens OverSize T-shirt</h2>
+                <small>Brand : Comfort</small>
+                <p class="para">Mens Oversize T-shirt Comfort
+                    Discover the latest fashion trends with our curated
+                    collection of high-quality clothing for every occasion.
+                    From casual essentials to statement pieces, we bring
+                    you stylish, comfortable, and affordable outfits that
+                    make you look and feel your best.
+                </p>
+                <p class="sizes">
+                    <small>XL</small>
+                    <small>XXL</small>
+                    <small>L</small>
+                    <small>SM</small>
+                </p>
+
+                <h3>Heighlight</h3>
+
+                <small>
+                    <li>Heavy Use</li>
+                </small>
+                <small>
+                    <li>Dont Wash</li>
+                </small>
+                <small>
+                    <li>Dont Blich</li>
+                </small>
+                <small>
+                    <li>Best Quality</li>
+                </small>
+
+                <div class="btns">
+                    <button class="addto">ADD TO CART</button>
+                    <button class="buy">BUY NOW</button>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+    <footer>
+
+
+        <div class="footer_section">
+
+            <div class="footer_content">
+                <h2>Clothes.</h2>
+
+                <div class="navlinks">
+                    <h3>Navlink</h3>
+                    <p>Home</p>
+                    <p>Collection</p>
+                    <p>Contact</p>
+                </div>
+
+                <div class="address">
+                    <h3>Address</h3>
+                    <p>Rattan galaxy Belavli Badlapur <br>
+                        Ambernath road</p>
+                    <p>+91 9075172570</p>
+                    <p>nalawadevishal2001@gmail.com</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </footer>
+
+
+
+
+    <script>
+
+        const remove_cross = document.getElementById("remove_cross");
+
+
+        menuBtn.addEventListener("click", function () {
+            navContent.classList.toggle("active");
+        });
+
+        remove_cross.addEventListener("click", function () {
+            navContent.classList.remove("active");
+        });
+    </script>
+
+
+</body>
+
+</html>
